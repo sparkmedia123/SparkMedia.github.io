@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="main-container">
+
+            <!-- Main Header -->
+            <div class="header-container">
+                <div id="header">
+                   <p class="top-panel">SPARK MEDIA</p>
+                </div>
+            </div>
+
+            <!-- Carousel -->
+            <div class="slideshow-container">
+                <div class="slides fade">
+                    <div class="numText">1 / 2</div>
+                        <img src="./images/carousel/Banner1.jpg" class="img-item">
+                </div>
+
+                <div class="slides fade">
+                    <div class="numText">2 / 2</div>
+                        <img src="./images/carousel/Banner2.jpg" class="img-item">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+            <div id="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+            </div>
+
+            <!-- Content -->
+            <div class="content">
+                <div class="tab-container">
+                    <div class="tabs">
+                        <button class="tab" onclick="openTab('home-content')">HOME</button>
+                        <button class="tab" onclick="openTab('about-us-content')">ABOUT US</button>
+                        <button class="tab" onclick="openTab('promotional-plan-content')">PROMOTIONAL PLAN</button>
+                        <button class="tab" onclick="openTab('our-team-content')">OUR TEAM</button>
+                    </div>
+                </div>
+                <div class="section">
+                     <!-- Per Section -->
+                    
+                   <div id="home-content" class="tab-content" style="display:block">
+
+                    </div>
+                    <div id="about-us-content" class="tab-content" style="display:none">
+                        <p>
+                            <b><i>On september 15, 2023....</i></b> Our group made a stream for our school project in <b>LifeLabs</b>.
+                            <br /><br />
+                            <i>Why <b>SPARK MEDIA?</b></i><br />
+                            We named our company <b>SPARK MEDIA?</b> because spark means light and light sometimes mean positivity.
+                            Media is from social media, we put media to also spread positivity on social media by sharing recipes 
+                            and teaching how to cook for other people.<br /><br />
+                            <i>Why <b>Light?</b></i><br />
+                            Because if we help people, it lightens our heart by seeing the happy faces of the people who we helped.
+                            This media brand focuses on creating visually captivating content, showcasing innovative cooking 
+                            techniques, and sparking creativity in the kitchen. The term <i><b>"Spark"</b></i> symbolizes the idea of 
+                            setting ideas, flavors, and passion ablaze; making cooking an engaging and delightful experience for the 
+                            audience.</p>
+                        
+                    </div>
+                    <div id="promotional-plan-content" class="tab-content" style="display:none">
+                        <p>
+                            &nbsp&nbsp&nbsp&nbsp We have made a <i><b>Facebook page, Instagram and twitter account</b></i> so we can promote <i><b>Spark Media</b></i>. 
+                            You can visit our Facebook page if you want to watch us LIVE. We also do livestreams atleast 
+                            20-30 minutes which usually starts at 1pm. We only do livestreaming from <i><b>Mondays and Thursdays</b></i>. 
+                            <br /><br /> &nbsp&nbsp&nbsp&nbsp If you want more information, please visit us on Instagram where we post daily updates. 
+                            And if u want some teasers and want to contact us please visit our twitter account. 
+                            You can find all the links of our social media accounts below. Happy cooking!
+                        </p>
+                        
+                    </div>
+                    <div id="our-team-content" class="tab-content" style="display:none">
+                        <h2 class="header-team">MEET THE PEOPLE BEHIND SPARK MEDIA</h2>
+                        <div class="our-team">
+                            <div class="team">
+                                <div id="our-team-leader" class="our-team-photo-div">
+                                    <img src="./images/Mhielle.jpg" class="our-team-image">
+                                </div>
+                                <div class="our-team-details">
+                                    <div class="our-team-details-role">
+                                        <p class="role"><b>Leader: <i>Mhielle</i></b></p>
+                                    </div>
+                                    <div class="our-team-details-description">
+                                        <p class="description">&nbsp&nbsp&nbsp&nbspAs the group leader you already expect that she commands the members on what to do, and plan what the stream will be like.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team">
+                                <div id="our-team-designer" class="our-team-photo-div">
+                                    <img src="./images/Michael.jpg" class="our-team-image">
+                                </div>
+                                <div class="our-team-details">
+                                    <div class="our-team-details-role">
+                                        <p class="role"><b>Designer: <i>Michael</i></b></p>
+                                    </div>
+                                    <div class="our-team-details-description">
+                                        <p class="description">&nbsp&nbsp&nbsp&nbspAs the designer, he's the one who designed the website, the logo and backgrounds for our slideshows and video recordings.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team">
+                                <div id="our-team-editor" class="our-team-photo-div">
+                                    <img src="./images/Amber.jpg" class="our-team-image">
+                                </div>
+                                <div class="our-team-details">
+                                    <div class="our-team-details-role">
+                                        <p class="role"><b>Editor: <i>Amber</i></b></p>
+                                    </div>
+                                    <div class="our-team-details-description">
+                                        <p class="description">&nbsp&nbsp&nbsp&nbspHer task is to edit our projects like video recordings and slideshows, etc.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team">
+                                <div id="our-team-writer" class="our-team-photo-div">
+                                    <img src="./images/Gab.jpg" class="our-team-image">
+                                </div>
+                                <div class="our-team-details">
+                                    <div class="our-team-details-role">
+                                        <p class="role"><b>Writer: <i>Gabrielle</i></b></p>
+                                    </div>
+                                    <div class="our-team-details-description">
+                                        <p class="description">&nbsp&nbsp&nbsp&nbspShe's the one who wrote details about the company. She is also the one who elaborates and explains the details of our works in a manner that our audience may understand better.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div id="our-team-researcher" class="team">
+                                <div id="our-team-researcher" class="our-team-photo-div">
+                                    <img src="./images/Ayesa.jpg" class="our-team-image1" style="margin-right: 10px;">
+                                    <img src="./images/Kressel.jpg" class="our-team-image1">
+                                </div>
+    
+                                <div class="double-desc">
+                                    <div class="our-team-details-role" class="our-team-photo-div1">
+                                        <p class="role"><b>Researchers: <i>Ayesa & Kressel</i></b></p>
+                                    </div>
+                                    <div class="our-team-details-description">
+                                        <p class="description">&nbsp&nbsp&nbsp&nbspThey are the ones that research our topics in our subjects or projects. They are also the one's who searched the references in some of our topics.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div id="contact-us-content" class="tab-content" style="display:none">
+                        <h2>contact us</h2>
+                    </div>
+
+                    <script>
+                        function openTab(tabId) {
+                            var i;
+                            var t
+                            var tabContents = document.getElementsByClassName("tab-content");
+                            for (i = 0; i < tabContents.length; i++) {
+                                tabContents[i].style.display = "none";  
+                            }
+                            document.getElementById(tabId).style.display = "block";
+                        }
+                    </script>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer-container">
+                <div class="footer">
+                    <div class="title">
+                        SPARK MEDIA
+                    </div>
+                    <div class="footer-content">
+                       WE LIVE, WE LOSE, WE LOVE
+                    </div>
+                    <div class="social-media">
+                        <div class="media">
+                            <a href="https://www.facebook.com/profile.php?id=61551618350847" class="soc-med-fb"><img src="./images/social-media/fb-logo.jpg" class="media-item"></a>
+                        </div>
+                        <div class="media">
+                            <a href="https://www.instagram.com/sparkmediaaaa?igsh=MWlkdGJ4c3pvd2dydw%3D%3D&utm_source=qr" class="soc-med-ig"><img src="./images/social-media/ig-logo.jpg" class="media-item"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- load first the element before exist this slide -->
+            <script src="./js/index.js"></script>
+        </div>
+    </body>
+</html>
