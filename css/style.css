@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 /* Header */
 #header {
     /* border-bottom:0.1px solid gray; */
@@ -139,7 +144,7 @@
 }
 
 .tab {
-    padding: 10px 50px 10px 50px;
+    padding: 10px 0 10px 0;
     width: 500px;
     border: none;
     background-color: white;
